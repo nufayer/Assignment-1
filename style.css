@@ -6,6 +6,7 @@
 
 header{
     background-color: #FFFFFF;
+    
 }
 
 nav{
@@ -14,6 +15,7 @@ nav{
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 32px;
 }
 
 nav .menu{
@@ -33,10 +35,109 @@ nav .menu a{
     background-color: #188043;
     border: none;
     font-size: 16px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 26px;
-    padding-right: 26px;
+    padding: 10px 26px;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+#banner .banner-content .banner-button .btn2{
+    background-color: transparent;
+    border-color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px 26px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#banner .banner-content .btn3{
+    background-color: #FFFFFF;
+    color: #188043;
+    text-align:center;
+    border-radius: 15px;
+    font-size: 18px;
+    align-content: center;
+    
+}
+
+#banner{
+    padding-top: 70px;
+    padding-bottom: 165px;
+    background-image: url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    
+    
+}
+
+#banner .banner-content{
+    max-width: 1600px;
+    align-items: center;
+    margin: 120px;
+    
+    
+    
+    
+    
+}
+
+#banner .banner-button{
+    padding-top: 32px;
+    margin-left: 550px;
+    margin-right: 300px;
+}
+
+#banner .banner-content h1{
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    
+    
+}
+
+
+#banner .banner-content p{
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+#about .about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#about .about-container .feature-box{
+    display: flex;
+    gap: 24px;
+}
+
+.feature-box .card{
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 #00000027;
+    height: 322px;
+    width: 300px;
+}
+
+.card img{
+    max-width: 80px;
+    margin-bottom: 70px;
+    background-color: #F95555;
+    border-radius: 30px;
+}
+
+.card h3{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+    display: inline;
+}
+
+.card p{
+    font-size: 16px;
+    color: #757575;
+    
 }
