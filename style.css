@@ -9,6 +9,26 @@ header{
     
 }
 
+.early-access {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #ffffff;
+    color: #2f9e63;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 700px;
+}
+
+.early-access .dot {
+    width: 8px;
+    height: 8px;
+    background: #2f9e63;
+    border-radius: 50%;
+}
+
 .section-heading{
     max-width: 827px;
     text-align: center;
@@ -45,16 +65,21 @@ nav .menu a{
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+    
 }
 
-#banner .banner-content .banner-button .btn2{
+.btn2{
     background-color: transparent;
     border-color: #FFFFFF;
     font-size: 16px;
-    
+    padding: 15px 30px;
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+}
+
+#banner .banner-content .banner-button{
+    gap:40px;
 }
 
 #banner .banner-content .btn3{
@@ -202,10 +227,20 @@ nav .menu a{
     display: flex;                 
     flex-direction: column;        
     align-items: center;          
-    text-align: center;            
-
-    max-width: 800px;              
+    text-align: center;      
+    background-color: #F7F6F2;      
+    max-width: 1600px;              
     margin: 0 auto;               
+}
+
+.final-content h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.final-content p{
+    font-size: 16px;
+    color: #627382;
 }
 
 footer {
